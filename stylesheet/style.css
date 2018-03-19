@@ -1,0 +1,167 @@
+.text {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#whole-body-container {
+    padding-top: 60px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+.profile-title {
+    color: #313333;
+    font-size: 30pt;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.profile-subtitle {
+    color: #8d9194;
+    font-size: 1em;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+
+#left-side-container {
+    width: 65%;
+}
+
+.navbar {
+    width: 100%;
+    height: 30px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display:flex;
+    -webkit-padding-start: 0px;
+    justify-content: space-between;
+}
+
+.navbar li{
+    float: left;
+    width: 33.3%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-bottom: 1.2px solid #8d9194;
+}
+
+.navbar span {
+    color: #8d9194;
+}
+
+#navbar-foto {
+    border-bottom: 1.6px solid #4273ce;
+    color: #4273ce;
+}
+
+#navbar-foto span{
+    font-weight: bold;
+    color: #4273ce;
+}
+
+
+#media-container {
+    margin-top: 30px;
+    width: 100%;
+    height: 380px;  
+    background-color: white;
+    display:flex;
+    justify-content:space-around;
+}
+
+.media-arrow {
+    display: flex;
+    align-items: center;
+}
+
+.arrow-text {
+    font-size: 30pt;
+    color: #4273ce;
+}
+
+#media-container img {
+    height:380px;
+}
+
+#promo-container {
+    position: fixed;
+    width: 30%;
+    height: 81%;
+    right: 3%;
+    top: 14%;
+}
+
+.promo-div {
+    width:100%;
+    height:20%;
+    background-color: white;
+    border: thin solid #8d9194;
+
+}
+
+#promo-price {
+    display:flex;
+    justify-content: space-around;         
+}
+
+#promo-price-text {
+    width: 30%;
+    height: 100%;
+    margin-left: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#promo-price-text span {
+    display:inline-block;
+    padding-left: 10px;
+}
+
+#promo-price-number {
+    display:inline;
+    width: 70%;
+    height:100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;         
+}
+
+#promo-price-number span {
+    display:inline-block;
+    padding-right: 30px;
+
+}
+
+.price-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    color: #313333;
+    font-weight: 500;
+}
+
+.price-text strong {
+    font-size: 22pt; 
+    font-weight: 200;   
+}
+
+
+
+
+
+
+
