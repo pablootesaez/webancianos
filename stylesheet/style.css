@@ -2,26 +2,115 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+#main-navbar {
+    position:fixed;
+    top:0px;
+    left:0px;
+    background-color: white;
+    height: 55px;
+    width:100%;
+    border-bottom: thin solid #8d9194;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#navbar-logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+#navbar-logo img {
+    height:90%;
+    display: inline;
+}
+
+#navbar-logo h1 {
+    height:100%;
+    padding:0;
+    margin:0;
+    display: flex;
+    align-items: center;
+}
+
+.navbarpostal-code-search {
+    display:flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.postal-code-input-form {
+    height: 35px;
+    width: 200px;
+    border: thin solid #8d9194;
+    border-radius: 8px;
+    color: #8d9194;
+    text-align: center;
+    font-size:12pt;
+}
+
+.search-button {
+    border:none;
+    background:none;
+    height: 100%;
+    display:inline;
+    margin-left: 10px;
+}
+
+.search-button span {
+    margin:0;
+    padding:0;
+    height: 100%;
+    font-size: 15pt;
+    font-weight: 200;
+}
+
+
+.navbar-href {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.navbar-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    color: #313333;
+    font-weight: 500;
+}
+
+.orange {
+    color:#1d56c0;
+}
+
+.orange strong {
+    font-size: 16pt;
+}
+
 #whole-body-container {
     padding-top: 60px;
-    padding-left: 10px;
-    background-color: white;
+    padding-left: 0px;
+    background-color: rgb(249, 249, 249);
 }
 
 .profile-title {
     color: #313333;
-    font-size: 30pt;
+    font-size: 25pt;
     font-weight: 400;
     margin-left: 10px;
     margin-bottom: -10px;
-    margin-top: -10px;
+    margin-top: -7px;
+    padding-left:20px;
 }
 
 .profile-subtitle {
     color: #8d9194;
     font-size: 1em;
     font-weight: lighter;
-    margin-left: 20px;
+    margin-left:35px;
 }
 
 #left-side-container {
@@ -62,21 +151,21 @@
 }
 
 #navbar-foto {
-    border-bottom: 1.6px solid #4273ce;
-    color: #4273ce;
+    border-bottom: 1.6px solid #1d56c0;
+    color: #1d56c0;
 }
 
 #navbar-foto span{
     font-weight: bold;
-    color: #4273ce;
+    color: #1d56c0;
 }
 
 
 #media-container {
-    margin-top: 30px;
+    margin-top: 27px;
     width: 100%;
     height: 380px;  
-    background-color: white;
+    background-color: rgb(249, 249, 249);
     display:flex;
     justify-content:space-around;
 }
@@ -88,7 +177,7 @@
 
 .arrow-text {
     font-size: 30pt;
-    color: #4273ce;
+    color: #1d56c0;
 }
 
 #media-container img {
@@ -100,7 +189,7 @@
     width: 30%;
     height: 81%;
     right: 3%;
-    top: 14%;
+    top: 13%;
 }
 
 .promo-div {
@@ -157,7 +246,7 @@
 }
 
 .price-text strong {
-    font-size: 22pt; 
+    font-size: 18pt; 
     font-weight: 200;   
 }
 
@@ -169,29 +258,34 @@
 }
 
 .add-favorite-button {
-    border: thin solid #4273ce;
+    border: thin solid #313333;
     border-radius: 16px;
     background-color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 60%;
-    width: 70%;
+    height: 70%;
+    width: 60%;
 }
 
 .heart {
     color:rgb(179, 15, 15);
-    font-size: 25pt;
+    font-size: 20pt;
     padding-right:20px;
 }
 
 .button-text {
     display: inline-block;
     font-family: 'Open Sans', sans-serif;
-    color: #4273ce;
+    color: #313333;
     font-weight: bold;
-    font-size: 18pt;
+    font-size: 14pt;
     padding-left:10px;
+}
+
+.fav {
+    font-size: 14pt;
+    color:#313333;
 }
 
 #promo-availability {
@@ -233,7 +327,7 @@
 .hurry-up-text {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.8em;
-    color: #4273ce;
+    color: #1d56c0;
     font-weight: 700;
 }
 
@@ -251,14 +345,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 60px%;
-    width: 70%;
+    height: 60%;
+    width: 60%;
 }
 
 .star-text {
     font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    color: #dde845;
+    font-size: 20px;
+    color: #bdb712;
 }
 
 #preguntas-message-form {
@@ -279,12 +373,13 @@
     border-radius: 8px;
     color: #8d9194;
     text-align: center;
+    font-size:12pt;
 }
 
 .send-form-button {
     border: none;
     border-radius: 8px;
-    background-color: rgb(179, 15, 15);
+    background-color: #1d56c0;
     display: flex;
     justify-content: space-around;
     align-items: center;
