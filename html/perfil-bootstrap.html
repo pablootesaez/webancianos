@@ -83,38 +83,48 @@
                         <span class="price-text">&nbspdesde<strong>&nbsp1.000&nbsp€&nbsp</strong>&nbspal mes</span>
                     </div>
                 </div>
-
-                <div id="Valoración" class="promo-div">
-
-                </div>
                 <div id="promo-availability" class="promo-div">
-                    <button class = "add-favorite-button">
-                        Añadir a favoritos <i class="fas fa-heart"></i>
+                    <div id="promo-availability-table-div">
+                        <table id="promo-availability-table">
+                            <tr>
+                                <th class="price-text">Habitación Individual&nbsp&nbsp</th>
+                                <th class="available-text"><button class="available-button available-text">Disponible</button></th>
+                                <th class="hurry-up-text">&nbsp&nbsp!Solamente quedan dos!</th>
+                            </tr>
+                            <tr>    
+                                <th class="price-text">Habitación Colectiva&nbsp&nbsp</th>
+                                <th class=""><button class="available-button available-text">Disponible</button></th>
+                                <th class="hurry-up-text">&nbsp&nbsp!Solamente queda una!</th>     
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id="promo-rating" class="promo-div">
+                    <button class = "rating-button">
+                        <span class="star-text">
+                            <i class="fas fa-star"></i>&nbsp                                
+                            <i class="fas fa-star"></i>&nbsp
+                            <i class="fas fa-star"></i>&nbsp
+                            <i class="fas fa-star"></i>&nbsp
+                            <i class="fas fa-star"></i>&nbsp
+                        </span>
                     </button>
                 </div>
-                <div id="añadir-favoritos" class="promo-div">
-
+                <div id="promo-favorite" class="promo-div">
+                    <button class = "add-favorite-button">
+                        <div><span class="button-text">Añadir a favoritos&nbsp&nbsp</span></div>
+                        <div><span class="heart"><i class="fas fa-heart"></i></span></div>
+                    </button>
                 </div>
-                <div id="preguntas-form" class="promo-div">
-
+                <div id="preguntas-message-form" class="promo-div">
+                    <form action="POST">
+                        <input class="message-input-form" type="text" name="mensaje" value="Haznos llegar tus preguntas. Escríbelas aquí..">
+                        <button type="submit" class="send-form-button">Enviar</button>
+                    </form>
                 </div>
             </div>
 
         </div>   
         
-        
-
-        <!--                    <div id="promo-precio-tabla-div">
-                        <table id="promo-precio-table">
-                            <tr>
-                                <th class="table-text">habitación individual</th>
-                                <th class="table-text">desde <span class="text euro-number"> 1.600 </span><span class="text euro-sign">€</span></th>
-                            </tr>
-                            <tr>    
-                                <th class="table-text">habitación colectiva</th>
-                                <th class="table-text">desde <span class="text euro-number"> 1.000 </span><span class="text euro-sign">€</span></th>
-                            </tr>
-                        </table>
-                    </div> -->
     </body>
 </html>
