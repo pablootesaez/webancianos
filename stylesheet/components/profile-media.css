@@ -1,0 +1,24 @@
+#profile-media-navbar div{
+    width: 33%;
+    border-width: 2px;
+}
+
+#profile-media-navbar span {
+    line-height: 170%;
+    width: 33%;
+    border-width: 2px;
+}
+
+#media-container {
+    margin-top:1.8%;
+    width: 100%;
+}
+
+#media-container div {
+    width: 15%;
+}
+
+#media-container img {
+    width: 70%;
+    height: 90%
+}

@@ -1,0 +1,42 @@
+#main-navbar {
+    position: fixed;
+    top:0;
+    left:0;
+    height:8%;
+    width:100%;
+}
+
+#main-navbar div {
+    height:100%;
+}
+
+#main-navbar img {
+    height: 90%;
+    margin-left:70%;
+}
+
+#main-navbar form {
+    height: 70%;
+    padding-right:30%;
+}
+
+#main-navbar input {
+    height: 90%;
+    border-radius: 6px;
+}
+
+#main-navbar h1 {
+    width:36%;
+    margin-left:2%;
+    padding-right:-10%;
+}
+
+#main-navbar-menu-button-div {
+    padding-right:3%;
+    padding-left:-2%;
+}
+
+#main-navbar-call-number-div {
+    margin-right:-13%;
+    margin-left:-4%;
+}

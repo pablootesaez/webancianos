@@ -1,0 +1,67 @@
+.bg-c-white {
+    background-color: white;
+}
+
+.bg-c-gd {
+    background-color: #313333;
+}
+
+.bg-c-gm {
+    background-color: #8d9194;
+}
+
+.bg-c-gl {
+    background-color: rgb(249, 249, 249);
+}
+
+.bg-c-none {
+    background-color:transparent; 
+}
+
+.bg-c-available {
+    background-color: green;
+}
+
+.bg-c-b {
+    background-color: #1d56c0;
+}
+
+.br {
+    border: solid thin;
+}
+
+.br-double {
+    border: double;
+}
+
+.br-none {
+    border:none;
+}
+
+.br-bottom {
+    border-bottom: solid thin;  
+}
+
+.br-top {
+    border-top: solid thin;  
+}
+
+.br-right {
+    border-right: solid thin;  
+}
+
+.br-left {
+    border-left: solid thin;  
+}
+
+.br-c-gd {
+    border-color:#313333;
+}
+
+.br-c-b {
+    border-color:#1d56c0;
+}
+
+.br-c-gm {
+    border-color:#8d9194;
+}

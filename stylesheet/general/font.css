@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+.f {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.f-ttl {
+    font-size: 165%;
+    font-weight: 400;
+}
+
+.f-sttl {
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.f-txt {
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.f-nvb {
+    font-size: 116%;
+    font-weight: 400;
+}
+
+.f-btn {
+    font-size: 116%;
+    font-weight: 600;
+}
+
+.f-form {
+    font-size: 100%;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.f-emph {
+    font-size: 130%;
+    font-weight: 600;
+}
+
+.f-small {
+    font-size: 90%;
+    font-weight: 300;
+}
+
+.f-xsmall {
+    font-size: 80%;
+    font-weight: 300;
+}
+
+.f-c-gd {
+    color: #313333;
+}
+
+.f-c-b {
+    color:#1d56c0;
+}
+
+.f-c-gm {
+    color: #8d9194;
+}
+
+.f-c-w {
+    color: white;
+}
+
+.f-c-heart {
+    color:rgb(179, 15, 15);
+}
+
+.f-c-star {
+    color: #bdb712;
+}
+
+.f-c-green {
+    color: green;
+}

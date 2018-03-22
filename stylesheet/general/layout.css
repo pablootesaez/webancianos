@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#navigation-side-container {
+    width: 66%;
+}
+
+.flex {
+    display:flex;
+}
+
+.block {
+    display: block;
+}
+
+.ct-center-v {
+    display: flex;
+    align-items: center;
+}
+
+.ct-center-h {
+    display: flex;
+    justify-content: center;
+}
+
+.ct-center-vh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ct-flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ct-flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ct-sp-around {
+    display: flex;
+    justify-content:space-around;
+}
+
+.ct-sp-between {
+    display: flex;
+    justify-content:space-between;
+}
+
+.txt-center {
+    text-align: center;
+}
